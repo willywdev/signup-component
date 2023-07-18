@@ -3,7 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/index.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Sign Up</h1>
+    </header>
+    <main>
+      <form>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" />
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="password-repeat">Repeat Password:</label>
+        <input
+          type="password"
+          id="password-repeat"
+          name="password-repeat"
+          required />
+
+        <div class="checkbox-wrapper">
+          <input
+            type="checkbox"
+            name="terms-services"
+            id="terms-services" /><label for="terms-services"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+            exercitationem! Harum, eum. Aperiam hic, vero minus eos reiciendis
+            explicabo, error obcaecati velit neque beatae illum animi. Maxime
+            consequuntur animi sapiente.</label
+          >
+        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" name="newsletter" id="newsletter" /><label
+            for="newsletter"
+            >Newsletter?</label
+          >
+        </div>
+
+        <button type="submit">Register</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
 </html>
