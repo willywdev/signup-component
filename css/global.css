@@ -1,20 +1,33 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(assets/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
 body {
-  font-family: Arial;
+  font-family: "Space Grotesk";
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100dvh;
   background-image: url(assets/17545.jpg);
+  backdrop-filter: blur(3px);
   /* Image by Harryarts on Freepik */
   background-size: cover;
   position: relative;
+}
+header img {
+  border: none;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
 }
 main {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: rgba(255, 255, 255, 50%);
 }
 
 form {
@@ -25,7 +38,10 @@ form {
 input {
   margin-bottom: 0.6rem;
   width: 75%;
+  border: 2px solid #96cafc;
+  border-radius: 10px;
 }
+
 [type="checkbox"] {
   width: max-content;
   margin-right: 0.3rem;
@@ -41,4 +57,22 @@ input {
 [type="submit"] {
   width: 150px;
   margin: 10px auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100dvw;
+  bottom: 1rem;
+  color: #4d4e4e;
+}
+.checkbox {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+}
+.checkbox:checked {
+  background-color: green;
+  border: green;
 }
