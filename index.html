@@ -10,7 +10,7 @@
   <body>
     <header></header>
     <main>
-      <form>
+      <form data-js="form">
         <h1>Sign Up</h1>
 
         <label for="full-name" hidden>First Name:</label>
@@ -42,14 +42,16 @@
           id="password"
           name="password"
           placeholder="Password"
+          data-js="passwordInput1"
           required />
 
         <label for="password-repeat" hidden>Repeat Password:</label>
         <input
           type="password"
           id="password-repeat"
-          name="password-repeat"
+          name="passwordRepeat"
           placeholder="Repeat Password"
+          data-js="passwordInput2"
           required />
 
         <div class="checkbox-wrapper">
