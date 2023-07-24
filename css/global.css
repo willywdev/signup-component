@@ -1,10 +1,10 @@
 @font-face {
-  font-family: "Space Grotesk";
-  src: url(assets/SpaceGrotesk-VariableFont_wght.ttf);
+  font-family: "Open Sans";
+  src: url(assets/open-sans-v35-latin-regular.woff2);
 }
 
 body {
-  font-family: "Space Grotesk";
+  font-family: "Open Sans";
   display: flex;
   flex-direction: column;
   justify-content: center;
