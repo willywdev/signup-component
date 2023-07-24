@@ -52,11 +52,11 @@ label {
 }
 .checkbox-wrapper {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: normal;
 }
-.checkbox-wrapper:last-of-type {
-  place-self: start;
+.checkbox-wrapper label {
+  display: block;
 }
 [type="submit"] {
   width: 150px;
