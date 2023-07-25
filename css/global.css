@@ -60,14 +60,7 @@ label {
   width: 150px;
   margin: 10px 0;
 }
-footer {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  width: 100dvw;
-  bottom: 1rem;
-  color: #373535;
-}
+
 .checkbox {
   --primary-color: #1677ff;
   --secondary-color: #fff;
