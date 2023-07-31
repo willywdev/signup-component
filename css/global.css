@@ -19,7 +19,7 @@ main {
   flex-direction: column;
 }
 h1 {
-  color: #3577ba;
+  color: darkslategray;
 }
 .form-preview {
   display: none;
@@ -201,7 +201,12 @@ label {
   background: linear-gradient(82.3deg, #83c2fa 10.8%, #3577ba 94.3%);
   transition: all 0.475s;
 }
-
+.bold {
+  font-weight: bold;
+}
+.blue {
+  color: #3577ba;
+}
 @media (min-width: 768px) {
   main {
     flex-direction: row;
@@ -210,7 +215,7 @@ label {
   }
   .form-preview {
     background: #3577ba;
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -222,15 +227,16 @@ label {
   form {
     background: white;
     height: 100%;
-    width: 40%;
+    width: 45%;
     border-radius: 0 7px 7px 0;
   }
   .headline {
     font-size: 1.5rem;
+    padding: 1rem;
     width: 100%;
-    text-align: center;
-    text-decoration: underline 2px #acd5f9;
-    text-underline-offset: 5px;
+    background-color: #acd5f9;
+    color: #3577ba;
+    font-size: 1.5rem;
   }
   .list {
     list-style-type: none;
@@ -249,5 +255,12 @@ label {
     transform: rotate(90deg);
     vertical-align: middle;
     margin-right: 3px;
+  }
+  .description {
+    font-size: 1.2rem;
+    background-color: #acd5f9;
+    padding: 1rem;
+    border-radius: 25px;
+    color: #3577ba;
   }
 }
