@@ -227,11 +227,14 @@ label {
     border-radius: 7px 0 0 7px;
     color: white;
   }
+  .container {
+    height: 55%;
+  }
   .form-preview img {
     object-fit: cover;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    height: 45%;
+    overflow: clip;
     margin: 0;
     border-top-left-radius: 7px;
   }
