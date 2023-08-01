@@ -227,7 +227,7 @@ label {
     border-radius: 7px 0 0 7px;
     color: white;
   }
-  .container {
+  .form-preview__text {
     height: 55%;
   }
   .form-preview img {
