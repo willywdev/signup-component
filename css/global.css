@@ -272,4 +272,8 @@ label {
     vertical-align: middle;
     margin-right: 3px;
   }
+  .form__label {
+    align-self: baseline;
+    margin-left: 3rem;
+  }
 }
