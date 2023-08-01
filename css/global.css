@@ -38,7 +38,7 @@ input {
   margin-bottom: 0.6rem;
   width: 75%;
   border: 2px solid #96cafc;
-  border-radius: 15px;
+  border-radius: 10px;
   caret-color: #1677ff;
   height: 1.7rem;
   padding: 0 5px;
@@ -223,9 +223,16 @@ label {
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    align-items: center;
     border-radius: 7px 0 0 7px;
     color: white;
+  }
+  .form-preview img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    border-top-left-radius: 7px;
   }
   form {
     background: rgba(255, 255, 255, 0.828);
@@ -242,6 +249,7 @@ label {
     background-color: #acd5f9;
     color: #3577ba;
     font-size: 1.7rem;
+    margin: 0;
   }
   .headline-color {
     color: #3577ba;
@@ -263,13 +271,5 @@ label {
     transform: rotate(90deg);
     vertical-align: middle;
     margin-right: 3px;
-  }
-  .description {
-    font-size: 1.2rem;
-    background-color: #acd5f9;
-    padding: 1rem;
-    border-radius: 25px;
-    color: #3577ba;
-    font-weight: bolder;
   }
 }
