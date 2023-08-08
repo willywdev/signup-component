@@ -229,12 +229,12 @@ label {
     color: white;
   }
   .form-preview__text {
-    height: 55%;
+    height: 65%;
   }
   .form-preview img {
     object-fit: cover;
     width: 100%;
-    height: 45%;
+    height: 35%;
     overflow: clip;
     margin: 0;
     border-top-left-radius: 7px;
@@ -267,9 +267,9 @@ label {
     flex-direction: column;
     gap: 1rem;
     margin-left: -1.4rem;
+    justify-self: center;
   }
   .list-item {
-    height: 2rem;
     font-weight: 700;
   }
   .list-item::before {
@@ -282,6 +282,15 @@ label {
     align-self: baseline;
     margin-left: 3rem;
   }
+  h1 {
+    font-size: 2rem;
+  }
 }
 @media (min-width: 992px) {
+  body {
+    align-items: center;
+  }
+  main {
+    width: 60%;
+  }
 }
